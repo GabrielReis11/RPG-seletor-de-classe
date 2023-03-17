@@ -17,7 +17,7 @@ function escolher(){
     console.log(classe)
     if (classe == `guerreiro`){
         msg.innerHTML = `Voce selecionou Guerreiro`
-        foto.src = `guerreiro.gif`
+        foto.src = `./imagens/guerreiro.gif`
         foto.style.width = `400px`
         forca.value = 10
         agilidade.value = 6
@@ -29,7 +29,7 @@ function escolher(){
         furttxt.innerHTML = furtividade.value
     } else if (classe ==`arqueiro`){
         msg.innerHTML = `Voce selecionou Arqueiro`
-        foto.src = `arqueiro.gif`
+        foto.src = `./imagens/arqueiro.gif`
         foto.style.width = `400px`
         forca.value = 6
         agilidade.value = 10
@@ -41,7 +41,7 @@ function escolher(){
         furttxt.innerHTML = furtividade.value
     } else if (classe == `mago`){
         msg.innerHTML = `Voce selecionou Mago`
-        foto.src = `mago.gif`
+        foto.src = `./imagens/mago.gif`
         foto.style.width = `400px`
         forca.value = 2
         agilidade.value = 4
@@ -53,7 +53,7 @@ function escolher(){
         furttxt.innerHTML = furtividade.value
     } else if (classe == `ninja`){
         msg.innerHTML = `Voce selecionou Ninja`
-        foto.src = `ninja.gif`
+        foto.src = `./imagens/ninja.gif`
         foto.style.width = `400px`
         forca.value = 5
         agilidade.value = 8
@@ -65,7 +65,7 @@ function escolher(){
         furttxt.innerHTML = furtividade.value
     } else {
         msg.innerHTML = `Selecione uma classe`
-        foto.src = `boy.gif`
+        foto.src = `./imagens/boy.gif`
         foto.style.width = `550px`
         forca.value = 0
         agilidade.value = 0
