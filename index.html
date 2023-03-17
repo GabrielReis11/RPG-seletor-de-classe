@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de Classe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header>Seletor de Classe</header>
+
+    <section>
+        <h2>Para iniciar sua aventura, selecione uma classe:</h2>
+        <select name="" id="classe" onchange="escolher()">
+            <option value="padrao">Selecione uma classe</option>
+            <option value="guerreiro">Guerreiro</option>
+            <option value="arqueiro">Arqueiro</option>
+            <option value="mago">Mago</option>
+            <option value="ninja">Ninja</option>
+        </select>
+    </section>
+
+    <div class="dados">
+        <div class="foto">
+            <h2 id="msg">Aguardando seleção</h2>
+            <img src="/boy.gif" alt="" id="img">
+        </div>
+
+        <div class="status">
+            <h2>Status da Classe</h2>
+            <div class="barras">
+                <div class="forc">
+                    <label for="forca">Força</label>
+                    <progress value="0" max="10" id="forca"></progress>
+                    <span id="for-txt">0</span>
+                </div>
+                <div class="agi">
+                    <label for="agilidade">Agilidade</label>
+                    <progress value="0" max="10" id="agilidade"></progress>
+                    <span id="agi-txt">0</span>
+                </div>
+                
+                <div class="int">
+                    <label for="inteligencia">Inteligencia</label>
+                    <progress value="0" max="10" id="inteligencia"></progress>
+                    <span id="int-txt">0</span>
+                </div> 
+
+                <div class="furt">
+                    <label for="furtividade">Furtividade</label>
+                    <progress value="0" max="10" id="furtividade"></progress>
+                    <span id="furt-txt">0</span>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

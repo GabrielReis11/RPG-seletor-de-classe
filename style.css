@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+body{
+    background: rgb(68, 177, 245);
+    font-family: 'Modern Antiqua', cursive;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 64px;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Modern Antiqua', cursive;
+    margin-top: 15px;
+}
+
+#classe{
+    width: 26%;
+}
+
+img{
+ width: 550px;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+
+.foto{
+    width: 550px;
+    height: 450px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status{
+    width: 550px;
+    height: 450px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.barras{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+}
